@@ -1,0 +1,77 @@
+.textfield {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0158A7;
+	background-color: #F0F9FF;
+	border: none;
+}
+.textfieldbranco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0158A7;
+	background-color: #FFFFFF;
+	border: 1px solid #0161A7;
+}
+.cell {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #FFFFFF;
+	color: #0161A7;
+}
+.label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px solid #FFFFFF;
+	color: #0161A7;
+}
+.tabela {
+	background-color: #B9E1FF;
+	border: 1px solid #FFFFFF;
+}
+.botao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #0161A7;
+	background-color: #F0F9FF;
+	color: #0161A7;
+}
+.textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #F0F9FF;
+	width: 100%;
+	border: none;
+	scrollbar-3dlight-color:#;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-base-color:#;
+	scrollbar-track-color:#B9E1FF;
+	scrollbar-face-color:#B9E1FF;
+	scrollbar-shadow-color:#FFFFFF;
+	scrollbar-highlight-color:#;
+	scrollbar-darkshadow-color:#FFFFFF;
+}
+a:link {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #0099FF;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #0099FF;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #0099FF;
+	text-decoration: underline;
+}
