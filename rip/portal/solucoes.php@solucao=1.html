@@ -1,0 +1,219 @@
+<html>
+	<head>
+		<title>Quantic Solutions</title>
+		<link href="includes/quantic.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			.mostra_menu {
+				position: absolute;
+				background: #6E6F6E;
+				margin-left: 108px;
+    			margin-top: -12px;
+			}
+		</style>
+		<script language="JavaScript" src="includes/addtonews.js"></script>
+		<script language="JavaScript">
+		var saiu = 0;
+var intervalo;
+function start(){
+	saiu = 0;
+	intervalo = setInterval(checamouse, 500);
+}
+
+function checamouse(){
+	if (saiu != 0){
+		escondemenu();
+		clearInterval(intervalo);
+		saiu = 0;
+	}
+}
+			function mostramenu1(){
+				escondemenu();
+				var html = 		"<table width=\"100\">"
+				+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=1#O que é?';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">O que é?</font></td></tr>"+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=1#Principais Funções';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">Principais Funções</font></td></tr>"+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=1#Plataformas';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">Plataformas</font></td></tr>"							+	"</table>";
+				document.all["menu_1"].innerHTML = html;
+				//document.all["menu_1"].style.position = "absolute";
+				document.all["menu_1"].style.visibility = "visible";
+			}
+						function mostramenu2(){
+				escondemenu();
+				var html = 		"<table width=\"100\">"
+				+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=2#O que é?';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">O que é?</font></td></tr>"+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=2#Principais Características';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">Principais Características</font></td></tr>"+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=2#Principais Benefícios';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">Principais Benefícios</font></td></tr>"+	"<tr><td style=\"cursor: hand;\" onClick=\"document.all['viz'].src = 'versolucao.php?cd=2#Versões';\" align=\"center\" bgcolor=\"#4E4E4E\"><font color=\"#FFFFFF\" size=\"1\" face=\"Arial, Helvetica, sans-serif\">Versões</font></td></tr>"							+	"</table>";
+				document.all["menu_2"].innerHTML = html;
+				//document.all["menu_2"].style.position = "absolute";
+				document.all["menu_2"].style.visibility = "visible";
+			}
+						function escondemenu(){
+			document.all["menu_1"].innerHTML = "";document.all["menu_1"].style.visibility = "hidden";document.all["menu_2"].innerHTML = "";document.all["menu_2"].style.visibility = "hidden";			}
+
+		</script>
+	</head>
+	<body leftmargin="0" topmargin="0">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr> 
+				<td align="center">
+					<table width="775" border="0" cellspacing="0" cellpadding="0" class="pagina">
+						<tr>
+							<td width="129"><img src="img/quantic-logo.gif" width="127" height="89"></td>
+							<td width="508" bgcolor="#E8A823">&nbsp;</td>
+							<td width="138" bgcolor="#E8A823">&nbsp;</td>
+						</tr>
+						<tr>
+							<td height="30" width="120" bgcolor="#000000">&nbsp;</td>
+							<td colspan="2" height="30" bgcolor="#000000">
+								
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="menuhorizontal">
+	<tr>
+		<td width="10">&nbsp;</td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="index.php.html">HOME</div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="empresa.php.html">EMPRESA</div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="clientes.php.html">CLIENTES</div></td>
+		<td><a style="color: #E4824C; cursor: hand;" href="solucoes.php.html">SOLU&Ccedil;&Otilde;ES</a></div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="servicos.php.html">SERVI&Ccedil;OS</div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="aliancas.php.html">ALIANÇAS</div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="imprensa.php.html">IMPRENSA</div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="curriculo.php.html">CURR&Iacute;CULO</div></td>
+		<td><a style="color: #FFFFFF; text-decoration: none; cursor: hand;" onMouseOver="style.textDecoration = 'underline';" onMouseOut="style.textDecoration = 'none';" href="contato.php.html">CONTATO</div></td>
+		<td width="30">&nbsp;</td>
+	</tr>
+</table>							</td>
+						</tr>
+						<tr>
+          					<td valign="top" bgcolor="#E4824C">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="menuesquerdo">
+									<tr>
+										<td height="42">&nbsp;</td>
+									</tr>
+									<tr><td height="23" valign="bottom"><a style="color: black;text-decoration:none;" onMouseOver="mostramenu1();" href="solucoes.php@solucao=1.html">Octopus</a></td></tr><tr><td><div class="mostra_menu" id="menu_1" onMouseOver="start();" onMouseOut="saiu = 1;"></div></td></tr><tr><td style="letter-spacing: 5px;">..........</td></tr><tr><td height="23" valign="bottom"><a style="color: black;text-decoration:none;" onMouseOver="mostramenu2();" href="solucoes.php@solucao=2.html">Cyan eProof</a></td></tr><tr><td><div class="mostra_menu" id="menu_2" onMouseOver="start();" onMouseOut="saiu = 1;"></div></td></tr>								</table>
+							</td>
+							<td valign="top" align="center">
+								<table width="80%" height="100%" border="0">
+																			<tr>
+											<td height="150" valign="top" class="conteudo">.</td>
+										</tr>
+										<tr>
+											<td height="230" valign="top"><iframe width="100%" height="230" src="versolucao.php@cd=1.html" frameborder="0" name="viz"></iframe></td>
+										</tr>
+										<tr>
+											<td height="70" valign="top" class="etiqueta"><DIV><STRONG>Para conhecer funções adicionais e outros benefícios que o Octopus pode oferecer à sua empresa, contate-nos:</STRONG></DIV>
+<DIV><A href="mailto:info@quanticsolutions.com">info@quanticsolutions.com</A> (47) 433 3839</DIV></td>
+										</tr>
+																			
+								</table>
+							</td>
+							<td width="138" valign="top">
+															<table width="145" height="220" border="0" cellspacing="0" cellpadding="1" class="menudireito" bgcolor="#6E6F6E">
+									<tr>
+										<td colspan="3"><div style="font-size: 5px">&nbsp;</div></td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td><img src="img/marker.gif"></td>
+										<td><a style="color:white;text-decoration: none;" href="solucoes.php@solucao=1.html#" onClick="window.open('indique.php', 'Indique', 'width=341,height=306,status=no,resizable=no,top=30,left=100,dependent=yes,alwaysRaised=yes');">INDIQUE NOSSO SITE</a></td>
+									</tr>
+
+									<tr>
+										<td>&nbsp;</td>
+										<td><img src="img/marker.gif"></td>
+										<td><a style="color:white;text-decoration: none;" href="mapa.php.html">MAPA DO SITE</a></td>
+									</tr>
+	
+									<tr>
+										<td>&nbsp;</td>									
+										<td colspan="2" style="font-size: 12px; font-weight: normal; " align="center">- - - - - - - - - - - - - - -</td>
+									</tr>
+	
+									<tr>
+										<td>&nbsp;</td>									
+										<td colspan="2" style="font-size: 9px; margin: 10px;">Área exclusiva para clientes, colaboradores e parceiros.</td>
+									</tr>
+<!--
+									<tr>
+										<td>&nbsp;</td>									
+										<td><img src="img/square01.gif"></td>
+										<td>SUPORTE</td>
+									</tr>-->
+
+									<tr>
+										<td>&nbsp;</td>									
+										<td><img src="img/square01.gif"></td>
+										<td><a onClick="self.location = 'downloads.php';">DOWNLOADS</a></td>
+									</tr>
+		
+									<tr>
+										<td>&nbsp;</td>									
+										<td colspan="2" style="font-size: 12px; font-weight: normal; " align="center">- - - - - - - - - - - - - - -</td>
+									</tr>
+
+									<tr>
+										<td>&nbsp;</td>									
+										<td><img src="img/square02.gif"></td>
+										<td>PORTUGUÊS</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>									
+										<td><img src="img/square02.gif"></td>
+										<td>ENGLISH</td>
+									</tr>
+									<tr>
+										<td colspan="3"><div style="font-size: 5px">&nbsp;</div></td>
+									</tr>
+								</table>								<table width="138" class="cotacoes" border="0" cellpadding="0" cellspacing="0" height="229">
+									<tr>
+										<td>&nbsp;</td>
+									</tr>
+									<tr> 
+										<td>&nbsp;</td>
+										<td colspan="2">
+											<table class="news">
+												<tr>
+													<td><img src="img/marker3.gif">&nbsp;Para receber nossa Newsletter informe seu nome completo e email:</td>
+												</tr>
+												<tr>
+													<td>
+														<table width="100%" class="news">
+															<form name="newsletter">
+															<tr>
+																<td width="30%">Nome:</td>
+																<td width="70%"><input type="text" name="nome" id="nome" class="news-form"></td>
+															</tr>
+															<tr>
+																<td>Email:</td>
+																<td><input type="text" name="email" id="email" class="news-form"></td>
+															</tr>
+															<tr>
+																<td colspan="2" align="right"><img style="cursor: hand;" onClick="javascript: addnews();" src="img/enviar_branco.gif"></td>
+															</tr>
+															</form>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr> 
+										<td>&nbsp;</td>
+										<td colspan="2"></td>
+									</tr>
+									<tr> 
+										<td>&nbsp;</td>
+										<td colspan="2">
+											<table class="news">
+												<tr>
+													<td><img src="img/marker3.gif">&nbsp;Tel/Fax 47 4345071</td>
+												</tr>
+												<tr>
+													<td>info@quanticsolutions.com</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<div class="rodape">&copy;&nbsp;2000-2003 Quantic Solutions. Todos os direitos reservados</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
